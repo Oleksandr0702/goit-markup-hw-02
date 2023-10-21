@@ -8,6 +8,14 @@
     --OCEAN: #404BBF;
   }
 
+  /* ul.without-dots {
+    list-style-type: none;
+  }
+
+  .without-dots {
+
+  } */
+
   .page {
    
   }
@@ -15,7 +23,7 @@
 /* Header section */ 
 
   .header {
-    color: #ffffff;
+    
   }
 
   .header-logo {
@@ -42,6 +50,10 @@
     text-transform: uppercase;
   }
 
+  .header-list {
+    list-style-type: none;
+  }
+
   .header-item-logo {
     color: var(--NAVY-BLUE);
     font-weight: 500;
@@ -53,6 +65,10 @@
 
   .header-item-logo:hover, .header-item-logo:focus {
     color: #404bbf;
+  }
+
+  .header-networks {
+    list-style-type: none;
   }
 
   .header-networks-link {
@@ -100,10 +116,24 @@
     cursor: pointer;
   }
 
+  .hero-btn-text {
+    color: var(--WHITE, #FFF);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+  }
+
 /* section feature */  
 
   .section-feature {
-    color: #ffffff;
+    
+  }
+
+  .feature-list {
+    list-style-type: none;
   }
 
   .feature-title {
@@ -125,7 +155,7 @@
 /* section gallery */  
 
   .section-gallery {
-    color: #ffffff;
+    
   }
 
   .gallery-main {
@@ -139,6 +169,10 @@
     text-transform: capitalize;
   }
 
+  .gallery-list {
+    list-style-type: none;
+  }
+
   .gallery-img {
     display: inline-flex;
     flex-direction: column;
@@ -150,7 +184,11 @@
 /* section team card */  
 
   .section-team-card {
-    color: #ffffff;
+    
+  }
+
+  .team-card-list {
+    list-style-type: none;
   }
 
   .team-card-main {
@@ -235,7 +273,7 @@
 /* Header section */
 
   .portfolio-header {
-    color: #ffffff;
+    
   }
 
   .portfolio-nav {
@@ -267,7 +305,7 @@
   }
 
   .portfolio-list {
-
+    list-style-type: none;
   }
 
   .portfolio-item {
@@ -291,7 +329,7 @@
   }
 
   .portfolio-networks {
-
+    list-style-type: none; 
   }
 
   .portfolio-networks-item {
@@ -303,7 +341,7 @@
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-    text-decoration: none;   
+    text-decoration: none;  
   }
 
   .portfolio-networks-link:hover, .portfolio-networks-link:focus {
@@ -323,7 +361,7 @@
   }
 
   .portfolio-list-hero {
-    color: #ffffff;
+    list-style-type: none; 
   }
 
   .portfolio-networks-hero {
@@ -334,6 +372,20 @@
     border-radius: 4px;
     background: var(--OCEAN, #404BBF);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    padding: 12px 24px;
+    align-items: flex-start;
+    display: flex;
+  }
+
+  .portfolio-hero-btn-text {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
   }
 
   .portfolio-item-logo-hero {
@@ -354,11 +406,11 @@
 /* section image */ 
 
   .portfolio-section {
-    color: #ffffff;
+    
   }
 
   .portfolio-list-section {
-
+    list-style-type: none;
   }
 
   .portfolio-networks-section {
@@ -371,7 +423,7 @@
   }
 
   .portfolio-item-logo-section {
-
+    text-decoration: none;
   }
 
   .portfolio-title-section {
@@ -381,7 +433,6 @@
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.4px;
-    text-decoration: none;
   }
 
   .portfolio-text-section {
