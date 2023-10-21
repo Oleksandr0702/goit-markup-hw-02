@@ -17,7 +17,7 @@
   } */
 
   .page {
-   
+    font-family: 'Roboto', sans-serif;
   }
 
 /* Header section */ 
@@ -267,7 +267,7 @@
 /* PORTFOLIO */
  
   .portfolio-page {
-
+    font-family: 'Roboto', sans-serif;
   }
 
 /* Header section */
@@ -375,6 +375,7 @@
     padding: 12px 24px;
     align-items: flex-start;
     display: flex;
+    cursor: pointer;
   }
 
   .portfolio-hero-btn-text {
